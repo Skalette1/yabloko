@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background: url(forest.jpg) no-repeat;
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(173, 214, 214);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.baobab {
+    color: rgb(14, 156, 14);
+    background-color: rgb(229, 229, 79) ;
+    height: 300px;
+    font-size: 1.6em;
+    padding: 15px;
+    display: flex;
+
+}
+.baobab img {
+    float: right;
+    height: 300px;
+    width: 300px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.bereza {
+    color: rgb(14, 156, 14);
+    background-color: rgb(113, 51, 171) ;
+    height: 300px;
+    font-size: 1.6em;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.bereza img {
+    float: left;
+    height: 300px;
+    width: 300px;
+    background: transparent;
+}
+
+p:hover {
+    transition: .5s all ease;
+    transform: scale(1.1);
+    font-weight: 600;
+}
+
+footer {
+    height: 67px;
+    background: url(vagabond.jpeg);
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
